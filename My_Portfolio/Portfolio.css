@@ -1,0 +1,393 @@
+/* الوان الصفحه كامله مع ابعادها */
+:root{
+    --primarycolor: #ff274b;
+    --secondarycolor: #f7bcf7;
+    --lightcolor: #ffffff;
+    --bgcolor-1: #171a1c;
+    --bgcolor-2: #22282a;
+    --padding: 8%;
+}
+
+/* للمحافظه على ابعاد الصفحه كامله  */
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+.home{
+    width: 100%;
+    height: 100vh;
+    background-color: var(--bgcolor-1);
+    display: flex;
+    flex-direction: column;
+}
+
+/* حجم الخط ونوعه ولونه  */
+html{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 30%;
+    color: var(--lightcolor);
+}
+
+
+html,body{
+    overflow-x: hidden;
+}
+
+/* لتغير لون كلمه واحده بالفقره الى الون الرئيسي */
+span{
+    color: var(--primarycolor);
+}
+/* قائمة السكشنات */
+nav{
+    padding-top: 2.8rem;
+    padding-left: var(--padding);
+    padding-right: var(--padding);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    margin: 0.8rem , 1.5rem;
+}
+
+nav ul li a{
+color: var(--lightcolor);
+text-decoration: none;
+text-transform: capitalize;
+}
+
+nav ul li a:hover{
+    color: var(--primarycolor);
+    transition: 0.6s;
+}
+
+    
+
+ul ,li{
+    font-size: 20px;
+    margin: 20px 20px;
+    
+}
+/* خصائص البوتم سي في */
+.btn{
+    background-color: var(--primarycolor);
+    color: var(--lightcolor);
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px;
+    margin: 10%;
+    border-radius: 30px;
+    font-size: 20px;
+    border: 1px solid transparent;
+}
+/* خصائص تحريك البوتم| */
+.btn:hover{
+    background-color: #171a1c; 
+    color: white;
+    border: 1px solid var(--primarycolor);
+    transition:all .5s;
+    padding: 20px;
+
+}
+
+
+.container1 {
+    display: flex;
+    width: 85%;
+    height: auto;
+    margin: 0 auto;
+    
+  }
+  
+  .contaner-texts {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 45%;
+    
+  }
+  
+  h1 {
+    font-size: 8.65rem;
+    margin: 4.7rem 0;
+  }
+  
+  h3 {
+    font-size: 7.5rem;
+    margin-bottom: 5%;
+  }
+  
+  h4 {
+    font-size: 5.25rem;
+    letter-spacing: 1.12rem;
+  }
+  
+  .contaner-images {
+    width: 65%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .me {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .circles {
+    width: 90%;
+    height: 60%;
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .circle1 {
+    border-radius: 50%;
+    display: flex;
+    width: 500%;
+    height: 250px;
+    background-color: red;
+    align-items: center;
+    justify-content: center;
+    padding-top:10rem ;
+  }
+  
+  .me img {
+    display: flex;
+    width: 75%;
+    z-index: 2;
+    /* padding-bottom: 9rem; */
+    
+  }
+
+  .home.contaner-images img {
+    height:90% ;
+    transform: translateX(-50);
+    transition: bottom 1s , left 1s;
+}
+
+#About_me{
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    background-color: #22282a;
+}
+
+.About{
+    width: 85%;
+    height: auto;
+    margin: 0 auto;
+    display: flex;
+}
+.about1{
+    width: 50%;
+    height: auto;
+}
+
+.about1 img{
+    width: 75%;
+}
+
+.about2{
+    width: 50%;
+    height: auto;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 20rem;
+}
+
+.about2 p{
+    text-align: left;
+}
+
+
+
+/*  education   */
+  .education_section{
+  
+    width: 100%;
+    height: auto;
+    padding-top: 3rem ;
+    padding-bottom: 20rem;
+    background-color: rgb(0, 0, 0);
+  }
+  /* education image section  */
+  .image_cont{
+    width: 75%;
+    display: flex;
+    justify-content: space-around;
+    padding: 3rem !important;
+  
+  }
+  /* end education image section  */
+  
+  h2{
+    text-align: center;
+    color: white ;
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+    font-size: 50px;
+  }
+  
+  .card-container {
+    display: flex;
+    
+    justify-content: space-around;
+    
+  }
+  
+  .card {
+    box-shadow: 0 3px 10px 0 rgb(252, 252, 252);
+    width: 30%;
+    margin-right: 10px;
+    background-color: #00000050;
+    padding-bottom: 2.2rem;
+  }
+
+  .card p h4{
+    color: white;
+    padding-left: 0.5rem;
+  }
+
+  #skills{
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    background-color: #22282a;
+}
+
+
+
+.skills1{
+    width: 85%;
+    height: auto;
+    margin: 0 auto;
+    display: flex;
+}
+
+.skills2 img{
+    width: 75%;
+}
+
+.skills2{
+    width: 40%;
+    height: auto;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 20rem;
+}
+
+
+.skills3{
+    margin-left: 30%;
+    margin-top: 10%;
+}
+
+#Experiences{
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    background-color: #000000;
+}
+
+#Experiences {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    background-color: #000000;
+  }
+  
+  .Experiences1 {
+    width: 85%;
+    height: auto;
+    margin: 0 auto;
+    display: flex;
+    align-items: center; 
+  }
+  
+  .Experiences3 {
+    flex-grow: 1; 
+  }
+  .Experiences_imgs {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center; 
+    gap: 10px; 
+  }
+  
+  .Experiences2 {
+    width: 75%;
+    height: auto;
+    font-size: 30px;
+    text-align: center;
+  }
+  .Experiences2 img {
+    width: 50%;
+  }
+ 
+  .Contact_me{
+    /* border: 2px solid white; */
+    /* width: 90%; */
+    /* height: 400px; */
+    /* margin-top: 25px;
+    margin-left: 55px;
+    border-radius: 20px; */
+    padding-top: 3%;
+    background-color: #22282a;
+    opacity: .9
+}
+.Contact_me1{
+    width: 20%;
+    margin-top: 5px;
+    color:#ffffff;
+}
+
+.Contact_me2{
+    text-align: center;
+    margin-top: -20px;
+    font-size: 25px;
+} 
+
+input[type=text], select {
+    width: 70%;
+    padding: 12px 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-sizing: border-box;
+  }
+
+  .button2 {
+    background-color: #157fad;
+    border: none;
+    color: white;
+    border-radius: 20px;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 35px;
+    width: 70%;
+}
+
+.icon1{
+    text-align: center;
+    margin-top: -20px;
+    font-size: 25px;
+    margin: 10%;
+}
+
+.icon2{
+    
+}
