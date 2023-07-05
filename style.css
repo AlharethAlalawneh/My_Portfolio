@@ -407,13 +407,14 @@ input[type=text], select {
     cursor: pointer;
     margin-top: 35px;
     width: 70%;
+    margin-bottom: 5%;
 }
 
 .icon1{
     text-align: center;
-    margin-top: -20px;
+    /* margin-top: -20px; */
     font-size: 25px;
-    margin: 10%;
+    /* margin: 10%; */
 }
 
 .icon2{
