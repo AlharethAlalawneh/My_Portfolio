@@ -26,8 +26,10 @@
 /* حجم الخط ونوعه ولونه  */
 html{
     font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Jost', sans-serif;
     font-size: 30%;
     color: var(--lightcolor);
+    
 }
 
 
@@ -69,10 +71,31 @@ nav ul li a:hover{
     
 
 ul ,li{
-    font-size: 20px;
-    margin: 20px 20px;
+    font-size: 25px;
+    margin: 20px 40px;
     
 }
+
+.pic{
+  padding-bottom: 50%;
+  height: 200rem;
+  padding-right: 30%;
+  position: absolute;
+  top: -25%;
+  left: 60%;
+  
+}
+
+.pic1{
+  /* margin-left: 75%; */
+  margin-bottom: 23%;
+  height: 107rem;
+  position: relative;
+  left: 20%;
+  top: 5%;
+  
+}
+
 /* خصائص البوتم سي في */
 .btn{
     background-color: var(--primarycolor);
@@ -80,7 +103,7 @@ ul ,li{
     text-decoration: none;
     font-weight: bold;
     padding: 10px;
-    margin: 10%;
+    margin: 30%;
     border-radius: 30px;
     font-size: 20px;
     border: 1px solid transparent;
@@ -98,10 +121,10 @@ ul ,li{
 
 .container1 {
     display: flex;
-    width: 85%;
+    width: 80%;
     height: auto;
     margin: 0 auto;
-    
+padding: 2%;
   }
   
   .contaner-texts {
@@ -110,7 +133,7 @@ ul ,li{
     justify-content: center;
     align-items: flex-start;
     width: 45%;
-    
+    padding-bottom: 13%;
   }
   
   h1 {
@@ -125,7 +148,9 @@ ul ,li{
   
   h4 {
     font-size: 5.25rem;
-    letter-spacing: 1.12rem;
+    /* padding-bottom: 10%; */
+    /* letter-spacing: 1.12rem; */
+    margin-top: 10%;
   }
   
   .contaner-images {
@@ -228,6 +253,7 @@ ul ,li{
     display: flex;
     justify-content: space-around;
     padding: 3rem !important;
+    
   
   }
   /* end education image section  */
@@ -248,11 +274,11 @@ ul ,li{
   }
   
   .card {
-    box-shadow: 0 3px 10px 0 rgb(252, 252, 252);
+    /* box-shadow: 0 3px 10px 0 rgb(252, 252, 252); */
     width: 30%;
     margin-right: 10px;
     background-color: #00000050;
-    padding-bottom: 2.2rem;
+    padding-bottom: 0.2rem;
   }
 
   .card p h4{
@@ -283,15 +309,16 @@ ul ,li{
 .skills2{
     width: 40%;
     height: auto;
-    font-size: 30px;
+    font-size: 40px;
     text-align: center;
-    margin-top: 20rem;
+    margin-top: 1rem;
+    margin-right: 5%;
 }
 
 
 .skills3{
     margin-left: 30%;
-    margin-top: 10%;
+    margin-top: 5%;
 }
 
 #Experiences{
@@ -334,6 +361,7 @@ ul ,li{
   }
   .Experiences2 img {
     width: 50%;
+    margin-left: 50%;
   }
  
   .Contact_me{
@@ -389,5 +417,14 @@ input[type=text], select {
 }
 
 .icon2{
-    
+  text-decoration: none;
+  font-size: 20px;
+  border: 1px solid transparent;
+}
+/* خصائص تحريك البوتم| */
+.icon2:hover{ 
+  color: white;
+  transition:all .5s;
+  padding: 10px;
+
 }
