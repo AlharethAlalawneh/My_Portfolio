@@ -14,26 +14,10 @@
    padding: 0;
    box-sizing: border-box;
 }
-.navbar1{
-  width: 100%;
-    height: auto;
-    background-color: var(--bgcolor-1);
-    display: flex;
-    /* flex-direction: column */
-}
-.navbar2{
-  width: 100%; 
-  margin: 0 auto;
-  display: flex;
-  justify-content: space-between;
-}
-.navbar2 ul li{
- gap: 1rem;
 
-} 
 .home{
     width: 100%;
-    height: 85vh;
+    height: 100vh;
     background-color: var(--bgcolor-1);
     display: flex;
     flex-direction: column;
@@ -408,7 +392,7 @@ input[type=text], select {
     font-size: 16px;
     cursor: pointer;
     margin-top: 35px;
-    width: 10%;
+    width: 70%;
     margin-bottom: 10%;
 }
 
@@ -432,224 +416,20 @@ input[type=text], select {
 
 }
 
-.Contact0{
-  background-color: #22282a;
-}
- 
-h2{
-font-size: 40px;
-}
-
-.Contact_me2{
-  background-color: #22282a;
-}
-
-.icon2{
-  background-color: #22282a;
-}
-
 @media screen and (max-width:667px){
-  :root {
-    --primarycolor: #ff274b;
-    --secondarycolor: #f7bcf7;
-    --lightcolor: #ffffff;
-    --bgcolor-1: #171a1c;
-    --bgcolor-2: #22282a;
-    --padding: 8%;
-  }
-  
-  * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
-  
-  
-  html {
-    font-family: 'Josefin Sans', sans-serif;
-    font-family: 'Jost', sans-serif;
-    /* font-size: 30%; */
-    color: var(--lightcolor);
-  }
-  
-  html,body {
-    /* overflow-x: ; */
-  }
-  
-  span {
-    color: var(--primarycolor);
-  }
-  
-  nav {
-    padding-top: 2.8rem;
-    padding-left: var(--padding);
-    padding-right: var(--padding);
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  
-  nav ul li {
-    list-style-type: none;
-    display: flex;
-    flex-wrap: nowrap;
-    margin: 0.8rem, 1.5rem;
-  }
-  
-  nav ul li a {
-    color: var(--lightcolor);
-    text-decoration: none;
-    text-transform: capitalize;
-  }
-  
-  /* nav ul li a:hover {
-    color: var(--primarycolor);
-    transition: 0.6s;
-  }
-   */
-  ul,li {
-    font-size: 10px;
-    margin: 2px 4px;
-  }
-  
-  .pic {
-    padding-bottom: 50%;
-    height: 50%;
-  }
-  
-  .btn {
-    background-color: var(--primarycolor);
-    color: var(--lightcolor);
-    text-decoration: none;
-    font-weight: bold;
-    padding: 2rem;
-    margin: 0.5rem;
-    border-radius: 30%;
-    font-size: 10px;
-    border: 1px solid transparent;
-  }
-  
-  .btn:hover {
-    background-color: #171a1c;
-    color: white;
-    border: 1px solid var(--primarycolor);
-    transition: all 0.5s;
-    /* padding: 20px; */
-  }
-  
-  .container1 {
-    display: flex;
-    width: 80%;
-    height: auto;
-    margin: 0 auto;
-    padding: 2%;
-  }
-  
-  .contaner-texts {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    width: 45%;
-    /* padding-bottom: 13%; */
-  }
-  .contaner-texts h1 {
-    font-size: 3rem;
-  }
-  h1 {
-    font-size: 1rem;
-    margin: 1rem 0;
-  }
-  
-  h3 {
-    font-size: 2rem;
-    margin-bottom: 5%;
-  }
-  
-  h4 {
-    font-size: 2rem;
-    margin-top: 10%;
-  }
-  
-  .contaner-images {
-    width: 65%;
-    height: auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .me {
-    display: flex;
-    position: relative;
-    /* flex-direction: column; */
-    align-items: center;
-  }
-  
-  .circles {
+/* .root,.home,.html,.html,.body,.span,.nav,.nav ul li,.nav ul li a,.nav ul li a:hover,.ul ,li,.pic,.btn,.btn:hover,.container1,.contaner-texts,.h1,.h3,.h4,.contaner-images,.me,.circles,.circle1,.home.contaner-images img,#About_me,.About,.about1,.about1 img,.about2,.about2 p,.education_section,.image_cont,h2,.card-container,.card,.card p h4,#skills,.skills1,.skills2 img,.skills2,.skills3,.Experiences,.Experiences1,.Experiences3,.Experiences_imgs,.Experiences2,.Experiences2 img,.Contact_me,.Contact_me1,.Contact_me2,.button2,.icon1,.icon2,.icon2:hover{ 
+  display:flex;
+  flex-direction:column;
+  body{
     width: 90%;
-    height: 60%;
-    display: flex;
-    position: relative;
-    align-items: center;
-    justify-content: center;
+    margin: 0 auto;
   }
-  
-  .circle1 {
-    border-radius: 50%;
-    display: flex;
-    width: 100%;
-    height: 5px;
-   
-  } 
-  .about1{
-    display: none;
-  }
-  .about1 {
-    display: none;
-  }
-  .about2{display: flex;}
-  .pra_about{
-    width: 433px !important;
-  }
-  .about2 p{
-    text-align: left;
-    margin-left: 38%;
-    font-size: 13px;
-    width: 55px !important;
-  }
-  .about2 h2 , span{
-    text-align: center;
-  }
-  .Experiences2 img{
-    display: none;
-  } 
-  .skills2 img{
-    display: none;
-  } 
-  
-#Contact{
-  background-color: #22282a;
-}
-.Contact0{
-  background-color: #22282a;
-}
+
  
-h2{
-  text-align: center;
-font-size: 40px;
+img{ 
+  width: 50%;
 }
-  .Contact_me2{
-    background-color: #22282a;
-  }
+.skills2{display: none;}*/
 
-  .icon2{
-    background-color: #22282a;
-  }
-}
 
-.about2h2 {
-  text-align: center;
-  font-size: 40px;
 }
